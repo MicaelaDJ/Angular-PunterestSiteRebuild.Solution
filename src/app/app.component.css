@@ -1,0 +1,29 @@
+.navbar-header {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.homePageImage {
+  height: 29px;
+  margin-right: 10px;
+  margin-left: -50%;
+}
+
+.search {
+  border-radius: 4px;
+  border: 2px solid #efefef;
+  background: #efefef;
+  margin-left: -7px;
+  width: 100%;
+  height: 30px;
+}
+
+li {
+  float: left;
+}
+
+i {
+  color: #8e8e8e;
+  padding: 10px;
+  float: right;
+}
