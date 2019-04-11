@@ -1,5 +1,4 @@
-.navbar-header {
-  list-style-type: none;
+nav {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -7,65 +6,68 @@
   height: 65px;
   position: fixed;
   top: 0;
-  margin: 0;
   background-color: #ffffff;
+  float: left;
 }
 
-.rightOfSearch {
+.navbar-right {
+  list-style-type: none;
   float: right;
-  margin-right: 40px;
+  margin-top: -80px;
+}
+
+.fa-lg {
+  margin-top: 25px;
 }
 .homePageImage {
   height: 29px;
-  margin-right: 10px;
-  margin-left: -40px;
+  margin: 15px;
 }
 
 input {
   border-radius: 4px;
   border: 0;
   background: #efefef;
-  box-sizing: border-box;
-  margin-left: -15px;
-  margin-top: -3px;
+  margin-top: -50px;
+  margin-left: 70px;
+  width: 50%;
   font-size: 16px;
   font-weight: 600;
   padding: 0 40px 0 52px;
-  width: 100%;
   height: 40px;
   line-height: 20px;
-}
-input {
-  width: 100%;
+  float: left;
 }
 
 #searchIcon {
+  color: #8e8e8e;
   float: left;
-  margin-left: -302px;
-  margin-top: -3px;
-}
-.container{
-  padding: 20px;
-  margin-top: 30px;
-  background-color: red;
+  margin-top: -40px;
+  margin-left: 85px;
 }
 
-li {
+nav li {
   float: left;
   padding: 15px;
+  color: #8e8e8e;
 }
 
-i {
-  color: #8e8e8e;
-  padding: 10px;
-  float: right;
-}
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  /*height: 60px;*/
-  background-color: blue;
-  /*padding: 15px;*/
+  height: 60px;
+  padding: 15px;
+}
+
+.fa-plus-circle{
+  color: #8e8e8e;
+  float: right;
+  margin-right: 50px;
+}
+.fa-question-circle {
+  color: #8e8e8e;
+  float: right;
+  margin-right: 50px;
 }

@@ -3,18 +3,20 @@
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <ul class="navbar-header">
-      <li><a class="navbar-brand" routerLink=""><img class="homePageImage" src="./assets/img/punterest.png" alt="punterest logo"></a></li>
-      <li><input class="search" type="text" name="search" placeholder="Search"></li>
-      <li><i id="searchIcon" class="fas fa-search"></i></li>
-      <div class="rightOfSearch">
-        <li><p>Home</p></li>
-        <li><p>Following</p></li>
-        <li><p>User</p></li>
-        <li><i class="fas fa-comment-dots fa-lg"></i></li>
-        <li><i class="fas fa-bell fa-lg"></i></li>
-        <li><i class="fas fa-ellipsis-h fa-lg"></i></li>
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink=""><img class="homePageImage" src="./assets/img/punterest.png" alt="punterest logo"></a>
+      <div class="searchBar">
+        <input class="search" type="text" name="search" placeholder="Search">
+        <i id="searchIcon" class="fas fa-search"></i>
       </div>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><p>Home</p></li>
+      <li><p>Following</p></li>
+      <li><p>User</p></li>
+      <li><i class="fas fa-comment-dots fa-lg"></i></li>
+      <li><i class="fas fa-bell fa-lg"></i></li>
+      <li><i class="fas fa-ellipsis-h fa-lg"></i></li>
     </ul>
   </div>
 </nav>
@@ -59,6 +61,7 @@
 
 <footer class="footer">
   <div class="container">
-    <a routerLink="about">About</a>
+    <i class="fas fa-plus-circle fa-3x"></i>
+    <a routerLink="about"><i class="fas fa-question-circle fa-3x"></i></a>
   </div>
 </footer>
