@@ -1,0 +1,12 @@
+button {
+  background: #2258bd;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

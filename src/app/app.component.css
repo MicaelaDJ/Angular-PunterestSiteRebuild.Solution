@@ -8,9 +8,9 @@ nav {
   top: 0;
   background-color: #ffffff;
   float: left;
-} continue to go over lessons...
+}
 
-.navbar-right {
+ul {
   list-style-type: none;
   float: right;
   margin-top: -80px;
