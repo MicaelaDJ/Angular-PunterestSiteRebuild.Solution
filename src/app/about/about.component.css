@@ -1,3 +1,8 @@
+#welcome, #idea, button {
+  margin-top: -200px;
+  color: white;
+}
+
 button {
   background: #2258bd;
   color: white;
