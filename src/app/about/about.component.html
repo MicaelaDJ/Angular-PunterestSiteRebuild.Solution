@@ -1,14 +1,43 @@
-this goes acreoss the top
-<p>About Pinterest</p>
-<p>What is Punterest?</p>
-<p>Discover(this is a link)</p>
-<p>Save(this is a link)</p>
-<p>Sign up!(this is a link)</p>
-<p>Careers(this is a link)</p>
-this is in the body
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="about"><img class="homePageImage" src="./assets/img/punterest.png" alt="punterest logo"></a>
+      <div class="searchBar">
+        <input class="search" type="text" name="search" placeholder="Search">
+        <i id="searchIcon" class="fas fa-search"></i>
+      </div>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><p>About Punterest</p></li>
+      <li><p>What is Punterest</p></li>
+      <li><p>Discover</p></li>
+      <li><p>Save</p></li>
+      <li><p>Sign up!</p></li>
+      <li><p>Careers</p></li>
+    </ul>
+  </div>
+</nav>
+<!-- <ul class="nav navbar-nav navbar-right">
+  <li><a routerLink="about">About</a></li>
+</ul> -->
+
+  <h1>{{ title }}</h1>
+  <router-outlet></router-outlet>
+
+
+<footer class="footer">
+  <div class="container">
+    <i class="fas fa-plus-circle fa-3x"></i>
+    <a routerLink="about"><i class="fas fa-question-circle fa-3x"></i></a>
+  </div>
+</footer>
+
 
 <div class="backround">
-  <img src="./assets/img/mountain.png" alt="">
+  <img id="mountainImg" src="./assets/img/mountain.png" alt="majestic mountains">
   <h3 id="welcome">WELCOME TO VISUAL DISCOVERY</h3>
   <h1 id="idea">When it comes to a great idea, you know it when you see it</h1>
   <button type="button" name="button">Join Pinterest</button>

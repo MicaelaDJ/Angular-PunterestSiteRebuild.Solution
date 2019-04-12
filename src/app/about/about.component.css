@@ -1,8 +1,7 @@
 #welcome, #idea, button {
   margin-top: -200px;
-  color: white;
 }
-think
+
 button {
   background: #2258bd;
   color: white;
@@ -14,4 +13,82 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: -80px;
+}
+
+.fa-lg {
+  margin-top: 25px;
+}
+.homePageImage {
+  height: 29px;
+  margin: 15px;
+}
+
+input {
+  border-radius: 4px;
+  border: 0;
+  background: #efefef;
+  margin-top: -50px;
+  margin-left: 70px;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 40px 0 52px;
+  height: 40px;
+  line-height: 20px;
+  float: left;
+}
+
+#searchIcon {
+  color: #8e8e8e;
+  float: left;
+  margin-top: -40px;
+  margin-left: 85px;
+}
+
+nav li {
+  float: left;
+  padding: 15px;
+  color: #8e8e8e;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+}
+
+.fa-plus-circle{
+  color: #8e8e8e;
+  float: right;
+  margin-right: 50px;
+}
+.fa-question-circle {
+  color: #8e8e8e;
+  float: right;
+  margin-right: 50px;
+}
+
+#mountainImg {
+  width: 100%;
 }
