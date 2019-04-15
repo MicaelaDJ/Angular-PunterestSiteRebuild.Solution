@@ -4,19 +4,14 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" routerLink="about"><img class="homePageImage" src="./assets/img/punterest.png" alt="punterest logo"></a>
-      <div class="searchBar">
-        <input class="search" type="text" name="search" placeholder="Search">
-        <i id="searchIcon" class="fas fa-search"></i>
-      </div>
+      <a id="aboutPunterest" class="navbar-brand" routerLink="about"><img class="aboutImageNav" src="./assets/img/punterest.png" alt="punterest logo"> About Punterest</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li><p>About Punterest</p></li>
-      <li><p>What is Punterest</p></li>
-      <li><p>Discover</p></li>
-      <li><p>Save</p></li>
-      <li><p>Sign up!</p></li>
-      <li><p>Careers</p></li>
+      <li class="whatIs">What is Punterest?</li>
+      <li class="keepGrey">Discover</li>
+      <li class="keepGrey">Save</li>
+      <li class="keepGrey">Sign up!</li>
+      <li class="keepGrey">Careers</li>
     </ul>
   </div>
 </nav>
@@ -27,18 +22,68 @@
   <h1>{{ title }}</h1>
   <router-outlet></router-outlet>
 
+  <div class="container body">
+    <div class="background">
+      <h3 id="welcome">WELCOME TO VISUAL DISCOVERY</h3>
+      <h1 class="idea">When it comes to a</h1>
+      <h1 class="idea">great idea, you know</h1>
+      <h1 class="idea">it when you see it</h1>
+      <button class="joinPunterest"type="button" name="button">Join Punterest</button>
+      <p id="p2">What's new at Punterest</p>
+      <div class="imgRow">
+        <img class="aboutImg" src="./assets/img/meetButton.jpg" alt="spaghetti noodle shaking hands with a meatball">
+        <p class="title">Meat food puns</p>
+        <p class="description">Point. Tap. Discover more puns!</p>
+        <img class="aboutImg" src="./assets/img/sparkButton.jpg" alt="lightbulb weighing itself on a scale">
+        <p class="title">The Punterest spark</p>
+        <p class="description">How to add puns to your everyday life</p>
+        <img class="aboutImg" src="./assets/img/panicButton.jpg" alt="a panicking button">
+        <p class="title">Punic button</p>
+        <p class="description">Save ideas around the web</p>
+      </div>
+    </div>
+  </div>
+
+<p class="whiteLine"></p>
 
 <footer class="footer">
-  <div class="container">
-    <i class="fas fa-plus-circle fa-3x"></i>
-    <a routerLink="about"><i class="fas fa-question-circle fa-3x"></i></a>
+  <div class="container grid-container">
+    <div class="languageThingy">
+      <a id="punterestHomeWord" class routerLink=""><img class="homePageImageFooter" src="./assets/img/punterest.png" alt="punterest logo">Punterest</a>
+      <br>
+      <p class="language"><select id="language" name="language">
+        <option value="English">English</option>
+        <option value="simplifiedEnglish">Simplified English</option>
+      </select></p>
+
+      <p class="©">© Punterest 2019</p>
+    </div>
+    <div class="aboutUs">
+      <h4>About us</h4>
+      <div class="notLinks">
+        <p>What's Punterest</p>
+        <p>Our Punterest page</p>
+        <p>Engineering blog</p>
+        <p>Brand guidlines</p>
+        <p>Careers</p>
+        <p>Help Center</p>
+        <p>Punterest Labs</p>
+      </div>
+    </div>
+    <div class="policiesAndInfo">
+      <h4>Our policies</h4>
+      <div class="notLinks">
+        <p>Copyright & trademark</p>
+        <p>Personalized ads</p>
+        <p>Terms of service</p>
+        <p>Privacy & cookies</p>
+      </div>
+      <h4>More info</h4>
+      <div class="notLinks">
+        <p>For businesses</p>
+        <p>For developers</p>
+        <p>For press</p>
+      </div>
+    </div>
   </div>
 </footer>
-
-
-<div class="backround">
-  <img id="mountainImg" src="./assets/img/mountain.png" alt="majestic mountains">
-  <h3 id="welcome">WELCOME TO VISUAL DISCOVERY</h3>
-  <h1 id="idea">When it comes to a great idea, you know it when you see it</h1>
-  <button type="button" name="button">Join Punterest</button>
-</div>
