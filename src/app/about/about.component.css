@@ -153,13 +153,3 @@ select {
 .notLinks{
   color: #6f6e6e;
 }
-.fa-plus-circle{
-  color: #8e8e8e;
-  float: right;
-  margin-right: 50px;
-}
-.fa-question-circle {
-  color: #8e8e8e;
-  float: right;
-  margin-right: 50px;
-}

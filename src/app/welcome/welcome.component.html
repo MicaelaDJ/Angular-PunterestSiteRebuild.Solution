@@ -1,3 +1,43 @@
-<p>
-  Main page
-</p>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="welcome"><img class="homePageImage" src="./assets/img/punterest.png" alt="punterest logo"></a>
+      <div class="searchBar">
+        <input class="search" type="text" name="search" placeholder="Search">
+        <i id="searchIcon" class="fas fa-search"></i>
+      </div>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li routerLink="welcome">Home</li>
+      <li>Following</li>
+      <li>User</li>
+      <li><i class="fas fa-comment-dots fa-lg"></i></li>
+      <li><i class="fas fa-bell fa-lg"></i></li>
+      <li><i class="fas fa-ellipsis-h fa-lg"></i></li>
+    </ul>
+  </div>
+</nav>
+<!-- <ul class="nav navbar-nav navbar-right">
+  <li><a routerLink="about">About</a></li>
+</ul> -->
+
+  <h1>{{ title }}</h1>
+  <router-outlet></router-outlet>
+
+<div class="grid-container">
+  <div class="item"><img class="punImg" src="./assets/img/carrate.jpg" alt="carrot doing karate"></div>
+  <div class="item"><img class="punImg" src="./assets/img/cloves.jpg" alt="a stripping clove"></div>
+  <div class="item"><img class="punImg" src="./assets/img/dog.jpg" alt="a very funny dog telling a joke"></div>
+  <div class="item"><img class="punImg" src="./assets/img/bad.jpg" alt="a pun about bad puns"></div>
+  <div class="item"><img class="punImg" src="./assets/img/soy.jpg" alt="judgemental milk"></div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <i class="fas fa-plus-circle fa-3x"></i>
+    <a routerLink="about"><i class="fas fa-question-circle fa-3x"></i></a>
+  </div>
+</footer>
