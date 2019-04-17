@@ -5,11 +5,17 @@
     <br>
     <input #newTitle>
   </div>
-
-  <div>
+    <div>
     <label>Pun Description</label>
     <br>
-    <textarea #newDescription>
+    <textarea #newDescription></textarea>
   </div>
-  <button (click)="submitForm(newTitle.value, newDescription.value); newTitle.value=''; newDescription.value=''">Add</button>
+  <button (click)="submitForm(newTitle.value, newDescription.value); newTitle.value=''; newDescription.value='' ">Add</button>
 </div>
+<div *ngFor="let pun of puns | async">
+  <h3>{{pun.title}}</h3>
+  <h3>{{pun.description}}</h3>
+</div>
+
+<h3>{{(punToDisplay | async)?.title}}</h3>
+<h3>{{(punToDisplay | async)?.description}}</h3>
