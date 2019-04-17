@@ -49,6 +49,15 @@ A site that is a rebuilt version of Pinterest. Part I will be planning the appli
 </details>
 
 ## Setup/Installation Requirements
+* Create api-keys.ts file in src/app directory
+* Place Firebase credentials in the window
+* export const masterFirebaseConfig = {
+*   apiKey: "xxxx",
+*   authDomain: "xxxx.firebaseapp.com",
+*   databaseURL: "https://xxxx.firebaseio.com",
+*   storageBucket: "xxxx.appspot.com",
+*   messagingSenderId: "xxxx"
+* };
 
 ## Known Bugs
 * No known Bugs

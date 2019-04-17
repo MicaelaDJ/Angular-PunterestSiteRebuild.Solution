@@ -1,0 +1,14 @@
+{ "puns": [{
+    "title": "Carrate",
+    "description": "A carrot practicing karate.",
+    "id": "1"
+    }, {
+    "title": "It's getting hot in here so take off all your cloves",
+    "description": "A garlic clove peeling itself.",
+    "id": "2"
+      }, {
+    "title": "A dog telling a joke",
+    "description": "The joke: Why does Waldo always wear stripes? Because he doesn't want to be spotted.",
+    "id": "3"
+  }]
+}
