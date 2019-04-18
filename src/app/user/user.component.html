@@ -15,6 +15,7 @@
 <div *ngFor="let pun of puns | async">
   <h3>{{pun.title}}</h3>
   <h3>{{pun.description}}</h3>
+  <br>
 </div>
 
 <h3>{{(punToDisplay | async)?.title}}</h3>

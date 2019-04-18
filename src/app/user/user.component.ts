@@ -16,6 +16,7 @@ import { FirebaseObjectObservable } from 'angularfire2/database';
 export class UserComponent implements OnInit {
   punId: number;
   punToDisplay;
+  puns: FirebaseListObservable<any[]>
 
   constructor(private route: ActivatedRoute, private location: Location, private punService: PunService) { }
 
@@ -23,8 +24,9 @@ export class UserComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.punId = urlParameters['id'];
     });
-    this.punToDisplay =
-    this.punService.getPunById(this.punId);
+    this.puns = this.punService.getPuns();
+    this.punToDisplay = this.punService.getPunById(this.punId);
+    console.log(this.punToDisplay)
   }
 
   submitForm(title: string, description: string) {
