@@ -5,6 +5,7 @@ import { Location } from '@angular/common';
 import { PunService } from '../pun.service';
 import { Pun } from '../pun.model';
 import { FirebaseObjectObservable } from 'angularfire2/database';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-user',
